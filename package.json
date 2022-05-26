@@ -1,0 +1,20 @@
+{
+  "name": "google-forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krishna kotni",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "googleapis": "^100.0.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}
