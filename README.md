@@ -19,13 +19,14 @@ This is a simple application that demonstrates the functionality of Google API a
 > Enable Pub/Sub and create a topic.
 
 #### Installation
-> `git clone https://github.com/reach-the-sky/Google-Forms-Mail-Notification.git` <br>
-> Add _.env_ file and fill in the values
-> - EMAIL_ID : To send mail using SMTP.
-> - EMAIL_PASSWORD : To authenticate mail.
-> - CLIENT_ID : Oauth client authentication (get it from google project).
-> - CLIENT_SECRET : It is with the CLIENT_ID.
-> - TOPIC_NAME : Pub/Sub topic path ( ex: "**projects/{project_name}/topics/{topic_name}**" ).
+- ```git clone https://github.com/reach-the-sky/Google-Forms-Mail-Notification.git``` <br>
+- ```npm install``` <br>
+-  Add _.env_ file and fill in the values
+    - EMAIL_ID : To send mail using SMTP.
+    - EMAIL_PASSWORD : To authenticate mail.
+    - CLIENT_ID : Oauth client authentication (get it from google project).
+    - CLIENT_SECRET : It is with the CLIENT_ID.
+    - TOPIC_NAME : Pub/Sub topic path ( ex: "**projects/{project_name}/topics/{topic_name}**" ).
 
 
 If you liked my project and appreciate the content I opensource, consider following me on github [🌥](https://github.com/reach-the-sky).
